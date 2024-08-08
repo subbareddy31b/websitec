@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    <div class="product-listing">
+        <h2>Our Houseplants</h2>
+        <div class="category">
+            <h3>Category 1</h3>
+            <div class="product" data-id="1">
+                <img src="plant1.jpg" alt="Plant 1">
+                <p>Name: Plant 1</p>
+                <p>Price: $10</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2">
+                <img src="plant2.jpg" alt="Plant 2">
+                <p>Name: Plant 2</p>
+                <p>Price: $15</p>
+                <button onclick="addToCart(2)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="category">
+            <h3>Category 2</h3>
+            <div class="product" data-id="3">
+                <img src="plant3.jpg" alt="Plant 3">
+                <p>Name: Plant 3</p>
+                <p>Price: $20</p>
+                <button onclick="addToCart(3)">Add to Cart</button>
+            </div>
+            <div class="product" data-id="4">
+                <img src="plant4.jpg" alt="Plant 4">
+                <p>Name: Plant 4</p>
+                <p>Price: $25</p>
+                <button onclick="addToCart(4)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="category">
+            <h3>Category 3</h3>
+            <div class="product" data-id="5">
+                <img src="plant5.jpg" alt="Plant 5">
+                <p>Name: Plant 5</p>
+                <p>Price: $30</p>
+                <button onclick="addToCart(5)">Add to Cart</button>
+            </div>
+            <div class="product" data-id="6">
+                <img src="plant6.jpg" alt="Plant 6">
+                <p>Name: Plant 6</p>
+                <p>Price: $35</p>
+                <button onclick="addToCart(6)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

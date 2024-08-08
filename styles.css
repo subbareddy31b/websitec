@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.landing-page, .product-listing, .shopping-cart {
+    text-align: center;
+    margin: 20px;
+}
+
+.product-listing .category {
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    margin-top: 10px;
+}
